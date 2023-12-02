@@ -1,0 +1,12 @@
+{
+  "id": "charmockster",
+  "number": 2,
+  "name": "Charmockster",
+  "image": "https://jb-1980.github.io/mockimon/sprite/charmockster.png",
+  "description": "A fiery ground type. It's a bit of a hot head.",
+  "types": ["ground", "fire"],
+  "size": {
+    "weight": 20,
+    "height": 24
+  }
+}

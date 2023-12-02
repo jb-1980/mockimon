@@ -2,7 +2,7 @@
   "id": "mockachu",
   "number": 1,
   "name": "Mockachu",
-  "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png",
+  "image": "https://jb-1980.github.io/mockimon/sprite/mockachu.png",
   "description": "A fighter with a shocking personality.",
   "types": ["electric", "fighting"],
   "size": {
