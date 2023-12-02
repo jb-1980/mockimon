@@ -1,0 +1,57 @@
+[
+  {
+    "name": "Mockachu",
+    "id": "mockachu",
+    "number": 1
+  },
+  {
+    "name": "Charmockster",
+    "id": "charmockster",
+    "number": 2
+  },
+  {
+    "name": "Mocktwo",
+    "id": "mocktwo",
+    "number": 3
+  },
+  {
+    "name": "Mockizard",
+    "id": "mockizard",
+    "number": 4
+  },
+  {
+    "name": "Gengamock",
+    "id": "gengamock",
+    "number": 5
+  },
+  {
+    "name": "Bulbasaurock",
+    "id": "bulbasaurock",
+    "number": 6
+  },
+  {
+    "name": "Ivysaurrock",
+    "id": "ivysaurrock",
+    "number": 7
+  },
+  {
+    "name": "Mucario",
+    "id": "mucario",
+    "number": 8
+  },
+  {
+    "name": "Umbreoff",
+    "id": "umbreoff",
+    "number": 9
+  },
+  {
+    "name": "Salamock",
+    "id": "salamock",
+    "number": 10
+  },
+  {
+    "name": "Grimninja",
+    "id": "grimninja",
+    "number": 11
+  }
+]

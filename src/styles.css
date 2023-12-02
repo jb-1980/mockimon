@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee&family=Rubik:ital,wght@0,400;0,600;0,800;1,400;1,600;1,800&display=swap");
+
+html,
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: Rubik;
+}
+
+.mockimon-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  gap: 16px;
+}
+
+.mocki-card {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  border-radius: 4px;
+  padding: 4px;
+  width: 348px;
+  height: 348px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  background-color: #fff;
+}
+
+.mocki-card > h2 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #444;
+  margin: 0px;
+  text-align: center;
+}
+
+.pokemon-info-container > h3 {
+  margin: 3px 0px;
+}
+
+.pokemon-size {
+  max-width: 300px;
+}
+
+.size-stat > .label {
+  font-weight: 600;
+  display: inline-block;
+}
+
+.size-stat > .description {
+  display: inline-block;
+  margin-left: 7px;
+}
+
+.pokemon-name {
+  text-transform: capitalize;
+}
+.pokemon-name > span {
+  color: #888;
+}
+
+.pokemon-image {
+  width: 300px;
+  height: 300px;
+}
+
+.pokemon-type-badge {
+  width: 100px;
+  height: 20px;
+  line-height: 20px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: #fff;
+  text-transform: capitalize;
+}
+
+.modal-overlay {
+  width: 500px;
+  height: 500px;
+}

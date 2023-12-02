@@ -1,0 +1,12 @@
+{
+  "id": "mockachu",
+  "number": 1,
+  "name": "Mockachu",
+  "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png",
+  "description": "A fighter with a shocking personality.",
+  "types": ["electric", "fighting"],
+  "size": {
+    "weight": 15.2,
+    "height": 17
+  }
+}
