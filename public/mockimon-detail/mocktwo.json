@@ -1,0 +1,12 @@
+{
+  "id": "mocktwo",
+  "number": 3,
+  "name": "Mocktwo",
+  "image": "https://jb-1980.github.io/mockimon/sprite/mocktwo.png",
+  "description": "A sturdy and mysterious Steel-Psychic Mockimon, radiating an aura of resilience and power.",
+  "types": ["steel", "psychic"],
+  "size": {
+    "weight": 125,
+    "height": 45
+  }
+}

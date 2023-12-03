@@ -20,7 +20,19 @@ export const App = () => {
   } else if (status === "resolved") {
     return (
       <div>
-        <h1 style={{ textAlign: "center" }}>Mockimon</h1>
+        <h1
+          style={{
+            textAlign: "center",
+            fontFamily: "Pokemon Solid",
+            fontWeight: 400,
+            letterSpacing: 3,
+            WebkitTextStrokeWidth: 2,
+            WebkitTextStrokeColor: "#3B4CCA",
+            color: "#FFDE00",
+          }}
+        >
+          Mockímon
+        </h1>
         <div className="mockimon-container">
           {mockimon.map((mocki) => (
             <MockiCard
