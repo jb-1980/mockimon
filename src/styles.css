@@ -39,6 +39,14 @@ body {
   text-align: center;
 }
 
+.mockimon-detail-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 16px;
+}
+
 .pokemon-info-container > h3 {
   margin: 3px 0px;
 }
@@ -82,4 +90,44 @@ body {
 .modal-overlay {
   width: 500px;
   height: 500px;
+}
+
+.json-box {
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  padding: 16px;
+  background-color: #121212;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.json-box code {
+  font-size: 14px;
+  white-space: pre-wrap;
+  white-space: -moz-pre-wrap;
+  white-space: -pre-wrap;
+  white-space: -o-pre-wrap;
+  word-wrap: break-word;
+  color: #ddd;
+}
+
+.json-box code .string {
+  color: #e3116c;
+}
+
+.json-box code .number {
+  color: #b5cea8;
+}
+
+.json-box code .boolean {
+  color: #005cc5;
+}
+
+.json-box code .null {
+  color: #6f42c1;
+}
+
+.json-box code .key {
+  color: #ddd;
 }

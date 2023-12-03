@@ -1,9 +1,10 @@
+import { JsonBlock } from "./JsonBlock"
 import { typeColors } from "./type-colors"
 import { useFetch } from "./useFetch"
 
 export const MockimonDetail = ({ mockimonUrl }: { mockimonUrl: string }) => {
   console.log({ mockimonUrl })
-  const { data: pokemon, error, status } = useFetch<MockimonQuery>(mockimonUrl)
+  const { data: mockimon, error, status } = useFetch<MockimonQuery>(mockimonUrl)
 
   if (status === "idle" || status === "pending") {
     return null
@@ -18,16 +19,24 @@ export const MockimonDetail = ({ mockimonUrl }: { mockimonUrl: string }) => {
     )
   } else if (status === "resolved") {
     return (
-      <div>
-        <div>
-          <code>{JSON.stringify(pokemon, null, 2)}</code>
-        </div>
+      <div className="mockimon-detail-container">
         <div style={{ display: "flex", flexDirection: "column", gap: 16 }}>
-          <NameAndNumber name={pokemon.name} number={pokemon.number} />
-          <Image src={`/mockimon/sprite/${pokemon.id}.png`} />
-          <Description description={pokemon.description} />
-          <Types types={pokemon.types} />
-          <Size height={pokemon.size.height} weight={pokemon.size.weight} />
+          <NameAndNumber name={mockimon.name} number={mockimon.number} />
+          <Image src={`/mockimon/sprite/${mockimon.id}.png`} />
+          <Description description={mockimon.description} />
+          <Types types={mockimon.types} />
+          <Size height={mockimon.size.height} weight={mockimon.size.weight} />
+        </div>
+        <div>
+          <p>
+            <h4>Fetch Endpoint</h4>
+            <a href={`/mockimon/mockimon-detail/${mockimon.id}.json`}>
+              {window.location.origin +
+                `/mockimon/mockimon-detail/${mockimon.id}.json`}
+            </a>
+            <h4>JSON</h4>
+            <JsonBlock json={mockimon} />
+          </p>
         </div>
       </div>
     )
