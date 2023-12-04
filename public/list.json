@@ -25,33 +25,28 @@
     "number": 5
   },
   {
-    "name": "Bulbasaurock",
-    "id": "bulbasaurock",
+    "name": "Rockasaur",
+    "id": "rockasaurock",
     "number": 6
-  },
-  {
-    "name": "Ivysaurrock",
-    "id": "ivysaurrock",
-    "number": 7
   },
   {
     "name": "Mucario",
     "id": "mucario",
-    "number": 8
+    "number": 7
   },
   {
     "name": "Umbreoff",
     "id": "umbreoff",
-    "number": 9
+    "number": 8
   },
   {
     "name": "Salamock",
     "id": "salamock",
-    "number": 10
+    "number": 9
   },
   {
     "name": "Grimninja",
     "id": "grimninja",
-    "number": 11
+    "number": 10
   }
 ]

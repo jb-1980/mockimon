@@ -1,0 +1,12 @@
+{
+  "id": "umbreoff",
+  "number": 8,
+  "name": "Umbreoff",
+  "image": "https://jb-1980.github.io/mockimon/sprite/umbreoff.png",
+  "description": "",
+  "types": [],
+  "size": {
+    "weight": 200,
+    "height": 70
+  }
+}

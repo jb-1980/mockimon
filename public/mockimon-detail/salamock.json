@@ -1,0 +1,12 @@
+{
+  "id": "salamock",
+  "number": 9,
+  "name": "Salamock",
+  "image": "https://jb-1980.github.io/mockimon/sprite/salamock.png",
+  "description": "",
+  "types": [],
+  "size": {
+    "weight": 200,
+    "height": 70
+  }
+}

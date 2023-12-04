@@ -1,0 +1,12 @@
+{
+  "id": "mucario",
+  "number": 7,
+  "name": "Mucario",
+  "image": "https://jb-1980.github.io/mockimon/sprite/mucario.png",
+  "description": "",
+  "types": [],
+  "size": {
+    "weight": 90,
+    "height": 60
+  }
+}

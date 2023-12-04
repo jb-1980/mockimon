@@ -1,7 +1,7 @@
 {
-  "id": "bulbasaurock",
+  "id": "rockasaur",
   "number": 3,
-  "name": "Bulbasaurock",
+  "name": "Rockasaur",
   "image": "https://jb-1980.github.io/mockimon/sprite/bulbasaurock.png",
   "description": "There is a rock on its back. By soaking up the sun's rays, the rock grows slowly larger.",
   "types": ["rock", "ground"],
