@@ -8,5 +8,7 @@
   "size": {
     "weight": 200,
     "height": 70
-  }
+  },
+  "abilities": null,
+  "power": false
 }

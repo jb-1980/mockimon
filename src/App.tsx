@@ -50,12 +50,29 @@ export const App = () => {
             contentLabel="Mocki Details"
             style={{
               content: {
-                minWidth: "80%",
-                minHeight: "80%",
+                width: "100%",
+                maxWidth: "800px",
                 margin: "auto",
+                inset: 0,
               },
             }}
           >
+            <button
+              style={{
+                position: "absolute",
+                top: 0,
+                right: 0,
+                padding: 16,
+                fontSize: 24,
+                fontWeight: 600,
+                border: "none",
+                background: "none",
+                cursor: "pointer",
+              }}
+              onClick={() => setMocki(null)}
+            >
+              &times;
+            </button>
             <MockimonDetail
               mockimonUrl={`/mockimon/mockimon-detail/${mocki}.json`}
             />

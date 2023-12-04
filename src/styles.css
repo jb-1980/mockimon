@@ -1,6 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Bungee&family=Rubik:ital,wght@0,400;0,600;0,800;1,400;1,600;1,800&display=swap");
 @import url("https://fonts.cdnfonts.com/css/pokemon-solid");
 
+:root {
+  --light: #fff;
+  --dark: #444;
+  --yellow: #fbd743;
+  --red: #ff1f1f;
+  --light-blue: #5db9ff;
+  --blue: #363b81;
+}
+
 html,
 body {
   padding: 0px;
@@ -29,30 +38,51 @@ body {
   justify-content: center;
   align-items: center;
   border: none;
-  background-color: #fff;
+  background-color: var(--light);
 }
 
 .mocki-card > h2 {
   font-size: 24px;
   font-weight: 600;
-  color: #444;
+  color: var(--dark);
   margin: 0px;
   text-align: center;
+}
+
+.mockimon-detail {
+  display: flex;
+  flex-direction: column;
 }
 
 .mockimon-detail-container {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: flex-start;
   gap: 16px;
 }
 
-.pokemon-info-container > h3 {
+.mockimon-api-details-block {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 390px;
+  width: 100%;
+}
+
+.mockimon-details-card {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 100%;
+}
+
+.mockimon-info-container > h3 {
   margin: 3px 0px;
 }
 
-.pokemon-size {
+.mockimon-size {
   max-width: 300px;
 }
 
@@ -66,25 +96,26 @@ body {
   margin-left: 7px;
 }
 
-.pokemon-name {
+.mockimon-name {
   text-transform: capitalize;
+  text-align: center;
 }
-.pokemon-name > span {
+.mockimon-name > span {
   color: #888;
 }
 
-.pokemon-image {
-  width: 300px;
-  height: 300px;
+.mockimon-image {
+  max-width: 390px;
+  max-height: 390px;
 }
 
-.pokemon-type-badge {
+.mockimon-type-badge {
   width: 100px;
   height: 20px;
   line-height: 20px;
   padding: 5px 10px;
   border-radius: 5px;
-  color: #fff;
+  color: var(--light);
   text-transform: capitalize;
 }
 
@@ -94,11 +125,8 @@ body {
 }
 
 .json-box {
-  width: 100%;
-  height: 100%;
-  overflow: auto;
   padding: 16px;
-  background-color: #121212;
+  background-color: var(--dark);
   border-radius: 4px;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
@@ -110,23 +138,23 @@ body {
   white-space: -pre-wrap;
   white-space: -o-pre-wrap;
   word-wrap: break-word;
-  color: #ddd;
+  color: var(--yellow);
 }
 
 .json-box code .string {
-  color: #e3116c;
+  color: var(--red);
 }
 
 .json-box code .number {
-  color: #b5cea8;
+  color: var(--yellow);
 }
 
 .json-box code .boolean {
-  color: #005cc5;
+  color: var(--light-blue);
 }
 
 .json-box code .null {
-  color: #6f42c1;
+  color: calc(var(--blue) * 0.5);
 }
 
 .json-box code .key {
