@@ -2,7 +2,7 @@
   "id": "ragneg",
   "number": 5,
   "name": "Ragneg",
-  "image": "https://jb-1980.github.io/mockimon/sprite/ragneg.png",
+  "image": "https://mockimon.github.io/sprite/ragneg.png",
   "description": "Hiding in nearby light sources, it emenates excessive heat. This causes its victims to be overwhelmed with fever.",
   "types": ["steel", "psychic"],
   "size": {

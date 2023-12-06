@@ -2,7 +2,7 @@
   "id": "rockasaur",
   "number": 3,
   "name": "Rockasaur",
-  "image": "https://jb-1980.github.io/mockimon/sprite/rockasaur.png",
+  "image": "https://mockimon.github.io/sprite/rockasaur.png",
   "description": "There is a rock on its back. By soaking up the sun's rays, the rock grows slowly larger.",
   "types": ["rock", "ground"],
   "size": {
