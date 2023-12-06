@@ -4,11 +4,7 @@ import { useFetch } from "./useFetch"
 import Modal from "react-modal"
 
 export const App = () => {
-  const {
-    data: mockimon,
-    error,
-    status,
-  } = useFetch<MockimonList>("/mockimon/list.json")
+  const { data: mockimon, error, status } = useFetch<MockimonList>("/list.json")
 
   const [mocki, setMocki] = useState<string | null>(null)
 
@@ -74,7 +70,7 @@ export const App = () => {
               &times;
             </button>
             <MockimonDetail
-              mockimonUrl={`/mockimon/mockimon-detail/${mocki}.json`}
+              mockimonUrl={`/api/mockimon-detail/${mocki}.json`}
             />
           </Modal>
         )}
@@ -94,7 +90,7 @@ const MockiCard = ({
     <button className="mocki-card" onClick={onClick}>
       <h2>{mocki.name}</h2>
       <img
-        src={`/mockimon/sprite/${mocki.id}.png`}
+        src={`/sprite/${mocki.id}.png`}
         style={{
           width: "300px",
           height: "300px",

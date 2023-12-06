@@ -35,9 +35,8 @@ const MockimonAPIDetails = ({ mockimon }: { mockimon: MockimonQuery }) => {
     <div className="mockimon-api-details-block">
       <p>
         <h4>Fetch Endpoint</h4>
-        <a href={`/mockimon/mockimon-detail/${mockimon.id}.json`}>
-          {window.location.origin +
-            `/mockimon/mockimon-detail/${mockimon.id}.json`}
+        <a href={`/api/mockimon-detail/${mockimon.id}.json`}>
+          {`${window.location.origin}/api/mockimon-detail/${mockimon.id}.json`}
         </a>
         <h4>JSON</h4>
         <JsonBlock json={mockimon} />
@@ -49,7 +48,7 @@ const MockimonAPIDetails = ({ mockimon }: { mockimon: MockimonQuery }) => {
 const MockimonDetailsCard = ({ mockimon }: { mockimon: MockimonQuery }) => {
   return (
     <div className="mockimon-details-card">
-      <Image src={`/mockimon/sprite/${mockimon.id}.png`} />
+      <Image src={`/sprite/${mockimon.id}.png`} />
       <Description description={mockimon.description} />
       <Types types={mockimon.types} />
       <Size height={mockimon.size.height} weight={mockimon.size.weight} />
