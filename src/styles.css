@@ -8,6 +8,26 @@
   --red: #ff1f1f;
   --light-blue: #5db9ff;
   --blue: #363b81;
+  /* badge colors */
+  --badge-normal: #a8a77a;
+  --badge-fire: #ee8130;
+  --badge-water: #6390f0;
+  --badge-electric: #f7d02c;
+  --badge-grass: #7ac74c;
+  --badge-ice: #96d9d6;
+  --badge-fighting: #c22e28;
+  --badge-poison: #a33ea1;
+  --badge-ground: #e2bf65;
+  --badge-flying: #a98ff3;
+  --badge-psychic: #f95587;
+  --badge-bug: #a6b91a;
+  --badge-rock: #b6a136;
+  --badge-ghost: #735797;
+  --badge-dragon: #6f35fc;
+  --badge-dark: #705746;
+  --badge-steel: #b7b7ce;
+  --badge-fairy: #d685ad;
+  --badge-light: #f5f5f5;
 }
 
 html,
@@ -117,6 +137,86 @@ body {
   border-radius: 5px;
   color: var(--light);
   text-transform: capitalize;
+  text-align: center;
+  box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.1),
+    0px 2px 4px 1px rgba(0, 0, 0, 0.1);
+}
+
+.mockimon-type-badge.light {
+  background-color: var(--badge-light);
+  color: var(--dark);
+}
+
+.mockimon-type-badge.normal {
+  background-color: var(--badge-normal);
+}
+
+.mockimon-type-badge.fire {
+  background-color: var(--badge-fire);
+}
+
+.mockimon-type-badge.water {
+  background-color: var(--badge-water);
+}
+
+.mockimon-type-badge.electric {
+  background-color: var(--badge-electric);
+}
+
+.mockimon-type-badge.grass {
+  background-color: var(--badge-grass);
+}
+
+.mockimon-type-badge.ice {
+  background-color: var(--badge-ice);
+}
+
+.mockimon-type-badge.fighting {
+  background-color: var(--badge-fighting);
+}
+
+.mockimon-type-badge.poison {
+  background-color: var(--badge-poison);
+}
+
+.mockimon-type-badge.ground {
+  background-color: var(--badge-ground);
+}
+
+.mockimon-type-badge.flying {
+  background-color: var(--badge-flying);
+}
+
+.mockimon-type-badge.psychic {
+  background-color: var(--badge-psychic);
+}
+
+.mockimon-type-badge.bug {
+  background-color: var(--badge-bug);
+}
+
+.mockimon-type-badge.rock {
+  background-color: var(--badge-rock);
+}
+
+.mockimon-type-badge.ghost {
+  background-color: var(--badge-ghost);
+}
+
+.mockimon-type-badge.dragon {
+  background-color: var(--badge-dragon);
+}
+
+.mockimon-type-badge.dark {
+  background-color: var(--badge-dark);
+}
+
+.mockimon-type-badge.steel {
+  background-color: var(--badge-steel);
+}
+
+.mockimon-type-badge.fairy {
+  background-color: var(--badge-fairy);
 }
 
 .modal-overlay {

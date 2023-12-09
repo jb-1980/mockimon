@@ -1,0 +1,12 @@
+{
+  "id": "flarefey",
+  "number": 9,
+  "name": "Flarefey",
+  "image": "https://mockimon.github.io/sprite/flarefey.png",
+  "description": "Flarefey is a captivating and magical Mockimon, resembling a graceful fairy surrounded by flickering flames.",
+  "types": ["fire", "fairy"],
+  "size": {
+    "weight": 25,
+    "height": 36
+  }
+}

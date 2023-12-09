@@ -17,6 +17,7 @@ type MockimonType =
   | "dark"
   | "steel"
   | "fairy"
+  | "light"
 
 type MockimonQuery = {
   id: string

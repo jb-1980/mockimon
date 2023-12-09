@@ -17,4 +17,5 @@ export const typeColors: Record<MockimonType, string> = {
   dark: "#705746",
   steel: "#B7B7CE",
   fairy: "#D685AD",
+  light: "#F5F5F5",
 }

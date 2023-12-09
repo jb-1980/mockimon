@@ -97,14 +97,7 @@ const Image = ({ src }: { src: string | undefined }) => {
 }
 
 const TypeBadge = ({ name }: { name: keyof typeof typeColors }) => {
-  return (
-    <div
-      className="mockimon-type-badge"
-      style={{ background: typeColors[name] }}
-    >
-      {name}
-    </div>
-  )
+  return <div className={`mockimon-type-badge ${name}`}>{name}</div>
 }
 
 const Types = ({ types }: { types: MockimonType[] }) => {
