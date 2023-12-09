@@ -260,3 +260,24 @@ body {
 .json-box code .key {
   color: #ddd;
 }
+
+.no-mockimon-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.no-mockimon-container > h2 {
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--dark);
+  margin: 0px;
+  text-align: center;
+}
+
+.no-mockimon-container > img {
+  max-width: 300px;
+  max-height: 300px;
+}

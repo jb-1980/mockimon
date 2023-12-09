@@ -9,10 +9,9 @@ export const MockimonDetail = ({ mockimonUrl }: { mockimonUrl: string }) => {
   if (status === "idle" || status === "pending") {
     return null
   } else if (status === "rejected") {
-    console.error({ error })
     return (
-      <div className="no-pokemon-container">
-        <img src="/img/sad-pikachu.png" />
+      <div className="no-mockimon-container">
+        <img src="/img/sad-mockachu.png" />
         <h2 style={{ color: "red" }}>Oops! Could not fetch the pokemon data</h2>
         <pre>{JSON.stringify(error, null, 2)}</pre>
       </div>
