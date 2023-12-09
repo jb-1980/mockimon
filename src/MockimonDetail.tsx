@@ -17,7 +17,7 @@ export const MockimonDetail = ({ mockimonUrl }: { mockimonUrl: string }) => {
         <pre>{JSON.stringify(error, null, 2)}</pre>
       </div>
     )
-  } else if (status === "resolved") {
+  } else {
     return (
       <div className="mockimon-detail">
         <NameAndNumber name={mockimon.name} number={mockimon.number} />

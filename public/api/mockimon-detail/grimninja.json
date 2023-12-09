@@ -3,7 +3,7 @@
   "number": 11,
   "name": "Grimninja",
   "image": "https://mockimon.github.io/sprite/grimninja.png",
-  "description": "This mockimon strikes fear into the hearts of its opponents with its deadly scythe-like blades..",
+  "description": "This mockimon strikes fear into the hearts of its opponents with its deadly scythe-like blades.",
   "types": ["ghost", "water"],
   "size": {
     "weight": 96.2,
