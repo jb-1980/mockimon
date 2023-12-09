@@ -1,3 +1,4 @@
+import { ErrorPage } from "./Error"
 import { JsonBlock } from "./JsonBlock"
 import { typeColors } from "./type-colors"
 import { useFetch } from "./useFetch"
@@ -9,13 +10,7 @@ export const MockimonDetail = ({ mockimonUrl }: { mockimonUrl: string }) => {
   if (status === "idle" || status === "pending") {
     return null
   } else if (status === "rejected") {
-    return (
-      <div className="no-mockimon-container">
-        <img src="/img/sad-mockachu.png" />
-        <h2 style={{ color: "red" }}>Oops! Could not fetch the pokemon data</h2>
-        <pre>{JSON.stringify(error, null, 2)}</pre>
-      </div>
-    )
+    return <ErrorPage error={error as Error} />
   } else {
     return (
       <div className="mockimon-detail">

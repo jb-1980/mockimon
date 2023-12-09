@@ -2,6 +2,7 @@ import { useState } from "react"
 import { MockimonDetail } from "./MockimonDetail"
 import { useFetch } from "./useFetch"
 import Modal from "react-modal"
+import { ErrorPage } from "./Error"
 
 export const App = () => {
   const { data: mockimon, error, status } = useFetch<MockimonList>("/list.json")
@@ -12,8 +13,8 @@ export const App = () => {
     return <p>Loading...</p>
   } else if (status === "rejected") {
     console.error({ error })
-    return <pre>{JSON.stringify(error, null, 2)}</pre>
-  } else if (status === "resolved") {
+    return <ErrorPage error={error as Error} />
+  } else {
     return (
       <div>
         <h1
@@ -34,7 +35,9 @@ export const App = () => {
             <MockiCard
               key={mocki.id}
               mocki={mocki}
-              onClick={() => setMocki(mocki.id)}
+              onClick={() => {
+                setMocki(mocki.id)
+              }}
             />
           ))}
         </div>
@@ -42,36 +45,42 @@ export const App = () => {
         {mocki && (
           <Modal
             isOpen
-            onRequestClose={() => setMocki(null)}
+            onRequestClose={() => {
+              setMocki(null)
+            }}
             contentLabel="Mocki Details"
             style={{
               content: {
-                width: "100%",
                 maxWidth: "800px",
                 margin: "auto",
                 inset: 0,
               },
             }}
           >
-            <button
-              style={{
-                position: "absolute",
-                top: 0,
-                right: 0,
-                padding: 16,
-                fontSize: 24,
-                fontWeight: 600,
-                border: "none",
-                background: "none",
-                cursor: "pointer",
-              }}
-              onClick={() => setMocki(null)}
-            >
-              &times;
-            </button>
-            <MockimonDetail
-              mockimonUrl={`/api/mockimon-detail/${mocki}.json`}
-            />
+            <div style={{ position: "relative" }}>
+              <button
+                style={{
+                  position: "absolute",
+                  top: -16,
+                  right: -16,
+                  padding: 16,
+                  fontSize: 24,
+                  fontWeight: 600,
+                  border: "none",
+                  background: "none",
+                  cursor: "pointer",
+                  color: "var(--dark)",
+                }}
+                onClick={() => {
+                  setMocki(null)
+                }}
+              >
+                &times;
+              </button>
+              <MockimonDetail
+                mockimonUrl={`/api/mockimon-detail/${mocki}.json`}
+              />
+            </div>
           </Modal>
         )}
       </div>
