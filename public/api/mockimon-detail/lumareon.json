@@ -3,7 +3,7 @@
   "number": 8,
   "name": "Lumareon",
   "image": "https://mockimon.github.io/sprite/lumareon.png",
-  "description": "Lumareon is a graceful and radiant Pokemon that exudes a gentle glow.",
+  "description": "Lumareon is a graceful and radiant Mockimon that exudes a gentle glow.",
   "types": ["light"],
   "size": {
     "weight": 95,
