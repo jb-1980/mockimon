@@ -5,7 +5,11 @@ import Modal from "react-modal"
 import { ErrorPage } from "./Error"
 
 export const App = () => {
-  const { data: mockimon, error, status } = useFetch<MockimonList>("/list.json")
+  const {
+    data: mockimon,
+    error,
+    status,
+  } = useFetch<MockimonList>("/api/list.json")
 
   const [mocki, setMocki] = useState<string | null>(null)
 
