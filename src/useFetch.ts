@@ -77,18 +77,21 @@ export const useFetch = <D>(url: string) => {
       dispatch({ type: ACTIONS.BEGIN_FETCH })
       fetch(url)
         .then((res) => {
-          console.log("HELP")
           return res.json()
         })
-        .then((json) => {
-          console.log(json)
+        .then((json: D) => {
           dispatch({ type: ACTIONS.FINISH_FETCH, payload: json })
         })
-        .catch((err) => {
-          dispatch({ type: ACTIONS.FETCH_ERROR, payload: err.message })
+        .catch((err: unknown) => {
+          if (err instanceof Error) {
+            dispatch({ type: ACTIONS.FETCH_ERROR, payload: err.message })
+            return
+          }
+          console.error(err)
+          dispatch({ type: ACTIONS.FETCH_ERROR, payload: "Unknown Error" })
         })
     }
   }, [url, state.status])
 
-  return state as State<D>
+  return state
 }

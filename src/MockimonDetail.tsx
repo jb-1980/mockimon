@@ -4,7 +4,6 @@ import { typeColors } from "./type-colors"
 import { useFetch } from "./useFetch"
 
 export const MockimonDetail = ({ mockimonUrl }: { mockimonUrl: string }) => {
-  console.log({ mockimonUrl })
   const { data: mockimon, error, status } = useFetch<MockimonQuery>(mockimonUrl)
 
   if (status === "idle" || status === "pending") {
