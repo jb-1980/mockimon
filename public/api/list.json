@@ -88,5 +88,15 @@
     "name": "Glacieria",
     "id": "glacieria",
     "number": 18
+  },
+  {
+    "name": "Brawlsurge",
+    "id": "brawlsurge",
+    "number": 19
+  },
+  {
+    "name": "Spectralis",
+    "id": "spectralis",
+    "number": 20
   }
 ]
