@@ -1,0 +1,13 @@
+{
+  "id": "terraquake",
+  "number": 15,
+  "name": "Terraquake",
+  "image": "https://mockimon.github.io/sprite/terraquake.png",
+  "description": "A Ground-type Mockimon with a tough exterior, capable of causing seismic tremors with each step.",
+  "types": ["ground"],
+  "size": {
+    "weight": 90,
+    "height": 40
+  },
+  "mockimon_url": "https://mockimon.github.io/#/terraquake"
+}

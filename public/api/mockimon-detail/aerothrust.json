@@ -1,0 +1,13 @@
+{
+  "id": "aerothrust",
+  "number": 16,
+  "name": "Aerothrust",
+  "image": "https://mockimon.github.io/sprite/aerothrust.png",
+  "description": "A Flying-type Mockimon, soaring through the skies with grace and speed, leaving a trail of gusty winds.",
+  "types": ["flying"],
+  "size": {
+    "weight": 65,
+    "height": 32
+  },
+  "mockimon_url": "https://mockimon.github.io/#/aerothrust"
+}

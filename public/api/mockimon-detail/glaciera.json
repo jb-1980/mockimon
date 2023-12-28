@@ -1,0 +1,13 @@
+{
+  "id": "glacieria",
+  "number": 18,
+  "name": "Glacieria",
+  "image": "https://mockimon.github.io/sprite/glacieria.png",
+  "description": "An Ice-type Mockimon, capable of creating a frosty atmosphere and freezing its surroundings.",
+  "types": ["ice"],
+  "size": {
+    "weight": 75,
+    "height": 34
+  },
+  "mockimon_url": "https://mockimon.github.io/#/glacieria"
+}

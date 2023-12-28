@@ -68,5 +68,25 @@
     "name": "Enchantia",
     "id": "enchantia",
     "number": 14
+  },
+  {
+    "name": "Terraquake",
+    "id": "terraquake",
+    "number": 15
+  },
+  {
+    "name": "Aerothrust",
+    "id": "aerothrust",
+    "number": 16
+  },
+  {
+    "name": "Stonewall",
+    "id": "stonewall",
+    "number": 17
+  },
+  {
+    "name": "Glacieria",
+    "id": "glacieria",
+    "number": 18
   }
 ]
