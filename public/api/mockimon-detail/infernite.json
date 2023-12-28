@@ -1,0 +1,13 @@
+{
+  "id": "infernite",
+  "number": 11,
+  "name": "Infernite",
+  "image": "https://mockimon.github.io/sprite/infernite.png",
+  "description": "A fiery and majestic Fire-type Mockimon, with a tail that burns brighter than the hottest flames.",
+  "types": ["fire"],
+  "size": {
+    "weight": 80,
+    "height": 35
+  },
+  "mockimon_url": "https://mockimon.github.io/#/infernite"
+}

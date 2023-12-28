@@ -48,5 +48,10 @@
     "name": "Grimninja",
     "id": "grimninja",
     "number": 10
+  },
+  {
+    "name": "Infernite",
+    "id": "infernite",
+    "number": 11
   }
 ]
