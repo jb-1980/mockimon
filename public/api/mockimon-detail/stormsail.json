@@ -1,0 +1,13 @@
+{
+  "id": "stormsail",
+  "number": 27,
+  "name": "Stormsail",
+  "image": "https://mockimon.github.io/sprite/stormsail.png",
+  "description": "An Electric-type Mockimon, harnessing the power of thunderstorms with its electrifying presence.",
+  "types": ["electric"],
+  "size": {
+    "weight": 75,
+    "height": 34
+  },
+  "mockimon_url": "https://mockimon.github.io/#/stormsail"
+}

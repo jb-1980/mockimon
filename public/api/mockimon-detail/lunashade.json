@@ -1,0 +1,13 @@
+{
+  "id": "lunashade",
+  "number": 25,
+  "name": "Lunashade",
+  "image": "https://mockimon.github.io/sprite/lunashade.png",
+  "description": "A Ghost-type Mockimon, shrouded in shadows, with an affinity for moonlit nights.",
+  "types": ["ghost"],
+  "size": {
+    "weight": 60,
+    "height": 28
+  },
+  "mockimon_url": "https://mockimon.github.io/#/lunashade"
+}

@@ -98,5 +98,55 @@
     "name": "Spectralis",
     "id": "spectralis",
     "number": 20
+  },
+  {
+    "name": "Aquamyst",
+    "id": "aquamyst",
+    "number": 21
+  },
+  {
+    "name": "Solarflare",
+    "id": "solarflare",
+    "number": 22
+  },
+  {
+    "name": "Zephyrwing",
+    "id": "zephyrwing",
+    "number": 23
+  },
+  {
+    "name": "Crystalisk",
+    "id": "crystalisk",
+    "number": 24
+  },
+  {
+    "name": "Lunashade",
+    "id": "lunashade",
+    "number": 25
+  },
+  {
+    "name": "Tundrake",
+    "id": "tundrake",
+    "number": 26
+  },
+  {
+    "name": "Stormsail",
+    "id": "stormsail",
+    "number": 27
+  },
+  {
+    "name": "Floralis",
+    "id": "floralis",
+    "number": 28
+  },
+  {
+    "name": "Mystifin",
+    "id": "mystifin",
+    "number": 29
+  },
+  {
+    "name": "Diamox",
+    "id": "diamox",
+    "number": 30
   }
 ]

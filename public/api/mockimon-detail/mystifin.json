@@ -1,0 +1,13 @@
+{
+  "id": "mystifin",
+  "number": 29,
+  "name": "Mystifin",
+  "image": "https://mockimon.github.io/sprite/mystifin.png",
+  "description": "A Psychic-type Mockimon, cloaked in mystery and possessing extraordinary mental abilities.",
+  "types": ["psychic"],
+  "size": {
+    "weight": 70,
+    "height": 32
+  },
+  "mockimon_url": "https://mockimon.github.io/#/mystifin"
+}

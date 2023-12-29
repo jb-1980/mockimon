@@ -1,0 +1,13 @@
+{
+  "id": "diamox",
+  "number": 30,
+  "name": "Diamox",
+  "image": "https://mockimon.github.io/sprite/diamox.png",
+  "description": "A Steel-type Mockimon with a diamond-hard exterior, known for its durability and resilience.",
+  "types": ["steel"],
+  "size": {
+    "weight": 367,
+    "height": 78
+  },
+  "mockimon_url": "https://mockimon.github.io/#/diamox"
+}

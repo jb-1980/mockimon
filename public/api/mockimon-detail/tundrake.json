@@ -1,0 +1,13 @@
+{
+  "id": "tundrake",
+  "number": 26,
+  "name": "Tundrake",
+  "image": "https://mockimon.github.io/sprite/tundrake.png",
+  "description": "An Ice-type Mockimon, ruling the frozen landscapes with a frosty breath and icy demeanor.",
+  "types": ["ice"],
+  "size": {
+    "weight": 80,
+    "height": 35
+  },
+  "mockimon_url": "https://mockimon.github.io/#/tundrake"
+}

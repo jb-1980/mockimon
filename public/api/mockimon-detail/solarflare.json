@@ -1,0 +1,13 @@
+{
+  "id": "solarflare",
+  "number": 22,
+  "name": "Solarflare",
+  "image": "https://mockimon.github.io/sprite/solarflare.png",
+  "description": "A radiant Fire-type Mockimon, emitting intense heat and light reminiscent of a solar flare.",
+  "types": ["fire"],
+  "size": {
+    "weight": 85,
+    "height": 38
+  },
+  "mockimon_url": "https://mockimon.github.io/#/solarflare"
+}
