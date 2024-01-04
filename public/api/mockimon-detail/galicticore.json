@@ -1,0 +1,10 @@
+{
+  "id": "galacticore",
+  "number": 33,
+  "name": "Galacticore",
+  "image": "https://mockimon.github.io/sprite/galacticore.png",
+  "description": "A majestic Cosmic-type Mockimon, with a swirling galaxy at its core.",
+  "types": ["cosmic"],
+  "size": { "weight": 85, "height": 38 },
+  "mockimon_url": "https://mockimon.github.io/#/galacticore"
+}

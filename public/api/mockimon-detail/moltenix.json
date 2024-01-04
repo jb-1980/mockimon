@@ -1,0 +1,10 @@
+{
+  "id": "moltenix",
+  "number": 35,
+  "name": "Moltenix",
+  "image": "https://mockimon.github.io/sprite/moltenix.png",
+  "description": "A fearsome Fire-type Mockimon, its body ablaze with molten lava and intense heat.",
+  "types": ["fire"],
+  "size": { "weight": 90, "height": 36 },
+  "mockimon_url": "https://mockimon.github.io/#/moltenix"
+}

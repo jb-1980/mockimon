@@ -1,0 +1,10 @@
+{
+  "id": "mysticquill",
+  "number": 40,
+  "name": "Mysticquill",
+  "image": "https://mockimon.github.io/sprite/mysticquill.png",
+  "description": "A wise and ancient Psychic/Flying-type Mockimon, its feathers imbued with arcane knowledge.",
+  "types": ["psychic", "flying"],
+  "size": { "weight": 75, "height": 34 },
+  "mockimon_url": "https://mockimon.github.io/#/mysticquill"
+}

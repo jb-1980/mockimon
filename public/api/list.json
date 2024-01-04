@@ -148,5 +148,55 @@
     "name": "Diamox",
     "id": "diamox",
     "number": 30
+  },
+  {
+    "name": "Lushleaf",
+    "id": "lushleaf",
+    "number": 31
+  },
+  {
+    "name": "Frostbite",
+    "id": "frostbite",
+    "number": 32
+  },
+  {
+    "name": "Galacticore",
+    "id": "galacticore",
+    "number": 33
+  },
+  {
+    "name": "Aeroflare",
+    "id": "aeroflare",
+    "number": 34
+  },
+  {
+    "name": "Moltenix",
+    "id": "moltenix",
+    "number": 35
+  },
+  {
+    "name": "Aquafrost",
+    "id": "aquafrost",
+    "number": 36
+  },
+  {
+    "name": "Vortexia",
+    "id": "vortexia",
+    "number": 37
+  },
+  {
+    "name": "Shadowstalker",
+    "id": "shadowstalker",
+    "number": 38
+  },
+  {
+    "name": "Celestisurge",
+    "id": "celestisurge",
+    "number": 39
+  },
+  {
+    "name": "Mysticquill",
+    "id": "mysticquill",
+    "number": 40
   }
 ]
