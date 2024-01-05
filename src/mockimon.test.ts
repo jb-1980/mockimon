@@ -37,7 +37,7 @@ describe("mockimon", () => {
 
   test("all mockimon in list should have a mockimon json file", () => {
     list.forEach((item) => {
-      // eslint-disable-next-line
+      // eslint-disable-next-line @typescript-eslint/no-unnecessary-condition
       if (!mockimonList[item.id]) console.log(item.id)
       expect(mockimonList[item.id]).toBeDefined()
     })
@@ -46,6 +46,7 @@ describe("mockimon", () => {
   test("all mockimon in mockimon json file should be in list, and have correct shape", () => {
     for (const [id, mockimonData] of Object.entries(mockimonList)) {
       const mockimon = list.find((mockimon) => mockimon.id === id)
+      // helpful to see which mockimon are mis-numbered
       if (mockimon?.number !== mockimonData.number) console.log(id)
       expect(mockimon).toBeDefined()
       expect(mockimon?.number).toBe(mockimonData.number)
@@ -79,6 +80,15 @@ describe("mockimon", () => {
       const id = sprite.replace(".png", "")
       const mockimon = list.find((mockimon) => mockimon.id === id)
       expect(mockimon).toBeDefined()
+    })
+  })
+
+  test("all mockimon in list should have a sprite", () => {
+    list.forEach((item) => {
+      const sprite = sprites.find((sprite) => sprite === `${item.id}.png`)
+      // helpful to see which mockimon are missing sprites
+      if (!sprite) console.log(item.id)
+      expect(sprite).toBeDefined()
     })
   })
 })
