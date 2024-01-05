@@ -4,6 +4,7 @@ import fs from "fs"
 
 describe("mockimon", () => {
   const mockimonList: Record<string, MockimonQuery> = {}
+  let sprites: string[] = []
   beforeAll(async () => {
     // eslint-disable-next-line
     const mockimonFiles = fs.readdirSync("./public/api/mockimon-detail")
@@ -15,6 +16,8 @@ describe("mockimon", () => {
         }
       )
     }
+    // eslint-disable-next-line
+    sprites = fs.readdirSync("./public/sprite")
   })
   test("mockimon numbers should be sequential", () => {
     list.forEach((item, i) => {
@@ -69,5 +72,13 @@ describe("mockimon", () => {
         /* eslint-enable */
       })
     }
+  })
+
+  test("all mockimon in sprite folder should be in list", () => {
+    sprites.forEach((sprite) => {
+      const id = sprite.replace(".png", "")
+      const mockimon = list.find((mockimon) => mockimon.id === id)
+      expect(mockimon).toBeDefined()
+    })
   })
 })

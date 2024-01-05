@@ -1,0 +1,10 @@
+{
+  "name": "Frostscale",
+  "id": "frostscale",
+  "number": 47,
+  "image": "https://mockimon.github.io/sprite/frostscale.png",
+  "description": "An Ice-type Mockimon, covered in icy scales that glisten in the winter sun.",
+  "types": ["ice"],
+  "size": { "weight": 70, "height": 32 },
+  "mockimon_url": "https://mockimon.github.io/#/frostscale"
+}

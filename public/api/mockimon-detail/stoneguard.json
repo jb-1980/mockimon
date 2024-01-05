@@ -1,0 +1,10 @@
+{
+  "name": "Stoneguard",
+  "id": "stoneguard",
+  "number": 44,
+  "image": "https://mockimon.github.io/sprite/stoneguard.png",
+  "description": "A sturdy Rock-type Mockimon, standing as a guardian with unyielding strength.",
+  "types": ["rock"],
+  "size": { "weight": 90, "height": 40 },
+  "mockimon_url": "https://mockimon.github.io/#/stoneguard"
+}

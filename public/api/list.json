@@ -1,202 +1,52 @@
 [
-  {
-    "name": "Mockachu",
-    "id": "mockachu",
-    "number": 1
-  },
-  {
-    "name": "Charmockster",
-    "id": "charmockster",
-    "number": 2
-  },
-  {
-    "name": "Mocktwo",
-    "id": "mocktwo",
-    "number": 3
-  },
-  {
-    "name": "Charmizard",
-    "id": "charmizard",
-    "number": 4
-  },
-  {
-    "name": "Ragneg",
-    "id": "ragneg",
-    "number": 5
-  },
-  {
-    "name": "Rockasaur",
-    "id": "rockasaur",
-    "number": 6
-  },
-  {
-    "name": "Lucarion",
-    "id": "lucarion",
-    "number": 7
-  },
-  {
-    "name": "Lumareon",
-    "id": "lumareon",
-    "number": 8
-  },
-  {
-    "name": "Flarefey",
-    "id": "flarefey",
-    "number": 9
-  },
-  {
-    "name": "Grimninja",
-    "id": "grimninja",
-    "number": 10
-  },
-  {
-    "name": "Infernite",
-    "id": "infernite",
-    "number": 11
-  },
-  {
-    "name": "Zapster",
-    "id": "zapster",
-    "number": 12
-  },
-  {
-    "name": "Foliora",
-    "id": "foliora",
-    "number": 13
-  },
-  {
-    "name": "Enchantia",
-    "id": "enchantia",
-    "number": 14
-  },
-  {
-    "name": "Terraquake",
-    "id": "terraquake",
-    "number": 15
-  },
-  {
-    "name": "Aerothrust",
-    "id": "aerothrust",
-    "number": 16
-  },
-  {
-    "name": "Stonewall",
-    "id": "stonewall",
-    "number": 17
-  },
-  {
-    "name": "Glacieria",
-    "id": "glacieria",
-    "number": 18
-  },
-  {
-    "name": "Brawlsurge",
-    "id": "brawlsurge",
-    "number": 19
-  },
-  {
-    "name": "Spectralis",
-    "id": "spectralis",
-    "number": 20
-  },
-  {
-    "name": "Aquamyst",
-    "id": "aquamyst",
-    "number": 21
-  },
-  {
-    "name": "Solarflare",
-    "id": "solarflare",
-    "number": 22
-  },
-  {
-    "name": "Zephyrwing",
-    "id": "zephyrwing",
-    "number": 23
-  },
-  {
-    "name": "Crystalisk",
-    "id": "crystalisk",
-    "number": 24
-  },
-  {
-    "name": "Lunashade",
-    "id": "lunashade",
-    "number": 25
-  },
-  {
-    "name": "Tundrake",
-    "id": "tundrake",
-    "number": 26
-  },
-  {
-    "name": "Stormsail",
-    "id": "stormsail",
-    "number": 27
-  },
-  {
-    "name": "Floralis",
-    "id": "floralis",
-    "number": 28
-  },
-  {
-    "name": "Mystifin",
-    "id": "mystifin",
-    "number": 29
-  },
-  {
-    "name": "Diamox",
-    "id": "diamox",
-    "number": 30
-  },
-  {
-    "name": "Lushleaf",
-    "id": "lushleaf",
-    "number": 31
-  },
-  {
-    "name": "Frostbite",
-    "id": "frostbite",
-    "number": 32
-  },
-  {
-    "name": "Galacticore",
-    "id": "galacticore",
-    "number": 33
-  },
-  {
-    "name": "Aeroflare",
-    "id": "aeroflare",
-    "number": 34
-  },
-  {
-    "name": "Moltenix",
-    "id": "moltenix",
-    "number": 35
-  },
-  {
-    "name": "Aquafrost",
-    "id": "aquafrost",
-    "number": 36
-  },
-  {
-    "name": "Vortexia",
-    "id": "vortexia",
-    "number": 37
-  },
-  {
-    "name": "Shadowstalker",
-    "id": "shadowstalker",
-    "number": 38
-  },
-  {
-    "name": "Celestisurge",
-    "id": "celestisurge",
-    "number": 39
-  },
-  {
-    "name": "Mysticquill",
-    "id": "mysticquill",
-    "number": 40
-  }
+  { "name": "Mockachu", "id": "mockachu", "number": 1 },
+  { "name": "Charmockster", "id": "charmockster", "number": 2 },
+  { "name": "Mocktwo", "id": "mocktwo", "number": 3 },
+  { "name": "Charmizard", "id": "charmizard", "number": 4 },
+  { "name": "Ragneg", "id": "ragneg", "number": 5 },
+  { "name": "Rockasaur", "id": "rockasaur", "number": 6 },
+  { "name": "Lucarion", "id": "lucarion", "number": 7 },
+  { "name": "Lumareon", "id": "lumareon", "number": 8 },
+  { "name": "Flarefey", "id": "flarefey", "number": 9 },
+  { "name": "Grimninja", "id": "grimninja", "number": 10 },
+  { "name": "Infernite", "id": "infernite", "number": 11 },
+  { "name": "Zapster", "id": "zapster", "number": 12 },
+  { "name": "Foliora", "id": "foliora", "number": 13 },
+  { "name": "Enchantia", "id": "enchantia", "number": 14 },
+  { "name": "Terraquake", "id": "terraquake", "number": 15 },
+  { "name": "Aerothrust", "id": "aerothrust", "number": 16 },
+  { "name": "Stonewall", "id": "stonewall", "number": 17 },
+  { "name": "Glacieria", "id": "glacieria", "number": 18 },
+  { "name": "Brawlsurge", "id": "brawlsurge", "number": 19 },
+  { "name": "Spectralis", "id": "spectralis", "number": 20 },
+  { "name": "Aquamyst", "id": "aquamyst", "number": 21 },
+  { "name": "Solarflare", "id": "solarflare", "number": 22 },
+  { "name": "Zephyrwing", "id": "zephyrwing", "number": 23 },
+  { "name": "Crystalisk", "id": "crystalisk", "number": 24 },
+  { "name": "Lunashade", "id": "lunashade", "number": 25 },
+  { "name": "Tundrake", "id": "tundrake", "number": 26 },
+  { "name": "Stormsail", "id": "stormsail", "number": 27 },
+  { "name": "Floralis", "id": "floralis", "number": 28 },
+  { "name": "Mystifin", "id": "mystifin", "number": 29 },
+  { "name": "Diamox", "id": "diamox", "number": 30 },
+  { "name": "Lushleaf", "id": "lushleaf", "number": 31 },
+  { "name": "Frostbite", "id": "frostbite", "number": 32 },
+  { "name": "Galacticore", "id": "galacticore", "number": 33 },
+  { "name": "Aeroflare", "id": "aeroflare", "number": 34 },
+  { "name": "Moltenix", "id": "moltenix", "number": 35 },
+  { "name": "Aquafrost", "id": "aquafrost", "number": 36 },
+  { "name": "Vortexia", "id": "vortexia", "number": 37 },
+  { "name": "Shadowstalker", "id": "shadowstalker", "number": 38 },
+  { "name": "Celestisurge", "id": "celestisurge", "number": 39 },
+  { "name": "Mysticquill", "id": "mysticquill", "number": 40 },
+  { "name": "Flamestreak", "id": "flamestreak", "number": 41 },
+  { "name": "Aquashade", "id": "aquashade", "number": 42 },
+  { "name": "Zephyrwhirl", "id": "zephyrwhirl", "number": 43 },
+  { "name": "Stoneguard", "id": "stoneguard", "number": 44 },
+  { "name": "Lunarhowl", "id": "lunarhowl", "number": 45 },
+  { "name": "Thunderstrike", "id": "thunderstrike", "number": 46 },
+  { "name": "Frostscale", "id": "frostscale", "number": 47 },
+  { "name": "Verdantwing", "id": "verdantwing", "number": 48 },
+  { "name": "Blazefury", "id": "blazefury", "number": 49 },
+  { "name": "Mysticnova", "id": "mysticnova", "number": 50 }
 ]
