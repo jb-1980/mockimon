@@ -30,6 +30,7 @@ type MockimonQuery = {
     weight: number
     height: number
   }
+  mockimon_url: string
 }
 
 type MockimonList = {

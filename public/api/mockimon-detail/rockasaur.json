@@ -1,6 +1,6 @@
 {
   "id": "rockasaur",
-  "number": 3,
+  "number": 6,
   "name": "Rockasaur",
   "image": "https://mockimon.github.io/sprite/rockasaur.png",
   "description": "There is a rock on its back. By soaking up the sun's rays, the rock grows slowly larger.",
@@ -9,5 +9,5 @@
     "weight": 500,
     "height": 37
   },
-  "mockimon_url": "https://mockimon.com/#/rockasaur"
+  "mockimon_url": "https://mockimon.github.io/#/rockasaur"
 }
