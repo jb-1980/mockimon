@@ -4,10 +4,13 @@
   "name": "Lucarion",
   "image": "https://mockimon.github.io/sprite/lucarion.png",
   "description": "Lunarion, with its sleek dark-blue fur and metallic silver accents, is a powerful and enigmatic Mockimon that thrives in the twilight hours.",
-  "types": ["dark", "steel"],
+  "types": [
+    "dark",
+    "steel"
+  ],
   "size": {
     "weight": 90,
     "height": 60
   },
-  "mockimon_url": "https://mockimon.github.io/#/lucarion"
+  "mockimon_url": "https://mockimon.github.io/#/mockidex/lucarion"
 }

@@ -4,7 +4,12 @@
   "name": "Lushleaf",
   "image": "https://mockimon.github.io/sprite/lushleaf.png",
   "description": "A vibrant Grass-type Mockimon, bringing life and color to every corner of the forest.",
-  "types": ["grass"],
-  "size": { "weight": 65, "height": 30 },
-  "mockimon_url": "https://mockimon.github.io/#/lushleaf"
+  "types": [
+    "grass"
+  ],
+  "size": {
+    "weight": 65,
+    "height": 30
+  },
+  "mockimon_url": "https://mockimon.github.io/#/mockidex/lushleaf"
 }

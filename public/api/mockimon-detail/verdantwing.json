@@ -4,7 +4,13 @@
   "number": 48,
   "image": "https://mockimon.github.io/sprite/verdantwing.png",
   "description": "A Grass/Flying-type Mockimon, soaring through lush landscapes with vibrant wings.",
-  "types": ["grass", "flying"],
-  "size": { "weight": 65, "height": 30 },
-  "mockimon_url": "https://mockimon.github.io/#/verdantwing"
+  "types": [
+    "grass",
+    "flying"
+  ],
+  "size": {
+    "weight": 65,
+    "height": 30
+  },
+  "mockimon_url": "https://mockimon.github.io/#/mockidex/verdantwing"
 }

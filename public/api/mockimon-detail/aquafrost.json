@@ -4,7 +4,13 @@
   "name": "Aquafrost",
   "image": "https://mockimon.github.io/sprite/aquafrost.png",
   "description": "An enchanting Water/Ice-type Mockimon, capable of freezing water with a touch.",
-  "types": ["water", "ice"],
-  "size": { "weight": 75, "height": 34 },
-  "mockimon_url": "https://mockimon.github.io/#/aquafrost"
+  "types": [
+    "water",
+    "ice"
+  ],
+  "size": {
+    "weight": 75,
+    "height": 34
+  },
+  "mockimon_url": "https://mockimon.github.io/#/mockidex/aquafrost"
 }

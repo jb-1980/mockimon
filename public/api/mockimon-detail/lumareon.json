@@ -4,10 +4,12 @@
   "name": "Lumareon",
   "image": "https://mockimon.github.io/sprite/lumareon.png",
   "description": "Lumareon is a graceful and radiant Mockimon that exudes a gentle glow.",
-  "types": ["light"],
+  "types": [
+    "light"
+  ],
   "size": {
     "weight": 95,
     "height": 47
   },
-  "mockimon_url": "https://mockimon.github.io/#/lumareon"
+  "mockimon_url": "https://mockimon.github.io/#/mockidex/lumareon"
 }

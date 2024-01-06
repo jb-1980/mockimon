@@ -4,24 +4,28 @@ type IdleState = {
   status: "idle"
   data: undefined
   error: null
+  url: string
 }
 
 type PendingState = {
   status: "pending"
   data: undefined
   error: null
+  url: string
 }
 
 type ResolvedState<D> = {
   status: "resolved"
   data: D
   error: null
+  url: string
 }
 
 type RejectedState = {
   status: "rejected"
   data: undefined
   error: unknown
+  url: string
 }
 
 type State<D> = IdleState | PendingState | ResolvedState<D> | RejectedState
@@ -35,6 +39,7 @@ enum ACTIONS {
 type Action<D> =
   | {
       type: ACTIONS.BEGIN_FETCH
+      payload: { url: string }
     }
   | {
       type: ACTIONS.FINISH_FETCH
@@ -48,17 +53,28 @@ type Action<D> =
 const fetchReducer = <D>(state: State<D>, action: Action<D>): State<D> => {
   switch (action.type) {
     case ACTIONS.BEGIN_FETCH: {
-      return { data: undefined, status: "pending", error: null }
+      return {
+        data: undefined,
+        status: "pending",
+        error: null,
+        url: action.payload.url,
+      }
     }
     case ACTIONS.FINISH_FETCH: {
       return {
+        ...state,
         status: "resolved",
         data: action.payload,
         error: null,
       }
     }
     case ACTIONS.FETCH_ERROR: {
-      return { data: undefined, status: "rejected", error: action.payload }
+      return {
+        ...state,
+        data: undefined,
+        status: "rejected",
+        error: action.payload,
+      }
     }
     default:
       return state
@@ -70,11 +86,12 @@ export const useFetch = <D>(url: string) => {
     data: undefined,
     status: "idle",
     error: null,
+    url,
   })
 
   useEffect(() => {
-    if (state.status === "idle") {
-      dispatch({ type: ACTIONS.BEGIN_FETCH })
+    if (state.status === "idle" || url !== state.url) {
+      dispatch({ type: ACTIONS.BEGIN_FETCH, payload: { url } })
       fetch(url)
         .then((res) => {
           return res.json()
@@ -91,7 +108,7 @@ export const useFetch = <D>(url: string) => {
           dispatch({ type: ACTIONS.FETCH_ERROR, payload: "Unknown Error" })
         })
     }
-  }, [url, state.status])
+  }, [url, state.status, state.url])
 
   return state
 }

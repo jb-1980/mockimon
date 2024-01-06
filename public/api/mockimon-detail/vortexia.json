@@ -4,7 +4,13 @@
   "name": "Vortexia",
   "image": "https://mockimon.github.io/sprite/vortexia.png",
   "description": "A mysterious Psychic/Flying-type Mockimon, manipulating the fabric of reality with its mind.",
-  "types": ["psychic", "flying"],
-  "size": { "weight": 65, "height": 32 },
-  "mockimon_url": "https://mockimon.github.io/#/vortexia"
+  "types": [
+    "psychic",
+    "flying"
+  ],
+  "size": {
+    "weight": 65,
+    "height": 32
+  },
+  "mockimon_url": "https://mockimon.github.io/#/mockidex/vortexia"
 }

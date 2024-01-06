@@ -4,10 +4,13 @@
   "name": "Grimninja",
   "image": "https://mockimon.github.io/sprite/grimninja.png",
   "description": "This mockimon strikes fear into the hearts of its opponents with its deadly scythe-like blades.",
-  "types": ["ghost", "water"],
+  "types": [
+    "ghost",
+    "water"
+  ],
   "size": {
     "weight": 96.2,
     "height": 64
   },
-  "mockimon_url": "https://mockimon.github.io/#/grimninja"
+  "mockimon_url": "https://mockimon.github.io/#/mockidex/grimninja"
 }

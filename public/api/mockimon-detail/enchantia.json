@@ -4,10 +4,12 @@
   "name": "Enchantia",
   "image": "https://mockimon.github.io/sprite/enchantia.png",
   "description": "A dazzling Fairy-type Mockimon, known for its charming demeanor and sparkling wings.",
-  "types": ["fairy"],
+  "types": [
+    "fairy"
+  ],
   "size": {
     "weight": 55,
     "height": 28
   },
-  "mockimon_url": "https://mockimon.github.io/#/enchantia"
+  "mockimon_url": "https://mockimon.github.io/#/mockidex/enchantia"
 }

@@ -4,10 +4,12 @@
   "name": "Crystalisk",
   "image": "https://mockimon.github.io/sprite/crystalisk.png",
   "description": "A Rock-type Mockimon with a crystalline body, reflecting and refracting light in dazzling patterns.",
-  "types": ["rock"],
+  "types": [
+    "rock"
+  ],
   "size": {
     "weight": 95,
     "height": 40
   },
-  "mockimon_url": "https://mockimon.github.io/#/crystalisk"
+  "mockimon_url": "https://mockimon.github.io/#/mockidex/crystalisk"
 }

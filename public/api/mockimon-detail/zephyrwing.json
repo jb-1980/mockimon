@@ -4,10 +4,12 @@
   "name": "Zephyrwing",
   "image": "https://mockimon.github.io/sprite/zephyrwing.png",
   "description": "An Air-type Mockimon with graceful wings, riding the currents with elegance and speed.",
-  "types": ["air"],
+  "types": [
+    "air"
+  ],
   "size": {
     "weight": 55,
     "height": 30
   },
-  "mockimon_url": "https://mockimon.github.io/#/zephyrwing"
+  "mockimon_url": "https://mockimon.github.io/#/mockidex/zephyrwing"
 }

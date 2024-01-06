@@ -4,7 +4,12 @@
   "number": 45,
   "image": "https://mockimon.github.io/sprite/lunarhowl.png",
   "description": "A Ghost-type Mockimon, howling at the moon with an eerie and mysterious presence.",
-  "types": ["ghost"],
-  "size": { "weight": 55, "height": 28 },
-  "mockimon_url": "https://mockimon.github.io/#/lunarhowl"
+  "types": [
+    "ghost"
+  ],
+  "size": {
+    "weight": 55,
+    "height": 28
+  },
+  "mockimon_url": "https://mockimon.github.io/#/mockidex/lunarhowl"
 }

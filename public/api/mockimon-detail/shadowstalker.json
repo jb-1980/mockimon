@@ -4,7 +4,12 @@
   "name": "Shadowstalker",
   "image": "https://mockimon.github.io/sprite/shadowstalker.png",
   "description": "A stealthy Dark-type Mockimon, lurking in the shadows with eyes that pierce through the darkness.",
-  "types": ["dark"],
-  "size": { "weight": 60, "height": 25 },
-  "mockimon_url": "https://mockimon.github.io/#/shadowstalker"
+  "types": [
+    "dark"
+  ],
+  "size": {
+    "weight": 60,
+    "height": 25
+  },
+  "mockimon_url": "https://mockimon.github.io/#/mockidex/shadowstalker"
 }

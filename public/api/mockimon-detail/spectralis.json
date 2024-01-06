@@ -4,10 +4,12 @@
   "name": "Spectralis",
   "image": "https://mockimon.github.io/sprite/spectralis.png",
   "description": "A Ghost-type Mockimon, haunting the shadows with an ethereal presence and mysterious aura.",
-  "types": ["ghost"],
+  "types": [
+    "ghost"
+  ],
   "size": {
     "weight": 55,
     "height": 27
   },
-  "mockimon_url": "https://mockimon.github.io/#/spectralis"
+  "mockimon_url": "https://mockimon.github.io/#/mockidex/spectralis"
 }

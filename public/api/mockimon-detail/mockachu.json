@@ -4,10 +4,13 @@
   "name": "Mockachu",
   "image": "https://mockimon.github.io/sprite/mockachu.png",
   "description": "A fighter with a shocking personality.",
-  "types": ["electric", "fighting"],
+  "types": [
+    "electric",
+    "fighting"
+  ],
   "size": {
     "weight": 15.2,
     "height": 17
   },
-  "mockimon_url": "https://mockimon.github.io/#/mockachu"
+  "mockimon_url": "https://mockimon.github.io/#/mockidex/mockachu"
 }

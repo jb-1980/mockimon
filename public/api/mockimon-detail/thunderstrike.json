@@ -4,7 +4,12 @@
   "number": 46,
   "image": "https://mockimon.github.io/sprite/thunderstrike.png",
   "description": "An Electric-type Mockimon, striking fear into the hearts of its foes with electrifying power.",
-  "types": ["electric"],
-  "size": { "weight": 80, "height": 35 },
-  "mockimon_url": "https://mockimon.github.io/#/thunderstrike"
+  "types": [
+    "electric"
+  ],
+  "size": {
+    "weight": 80,
+    "height": 35
+  },
+  "mockimon_url": "https://mockimon.github.io/#/mockidex/thunderstrike"
 }

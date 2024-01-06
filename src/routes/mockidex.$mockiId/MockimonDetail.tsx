@@ -1,9 +1,12 @@
-import { ErrorPage } from "./Error"
-import { JsonBlock } from "./JsonBlock"
-import { typeColors } from "./type-colors"
-import { useFetch } from "./useFetch"
+import { useParams } from "react-router-dom"
+import { ErrorPage } from "../../Error"
+import { JsonBlock } from "../../global-components/JsonBlock"
+import { typeColors } from "../../type-colors"
+import { useFetch } from "../../useFetch"
 
-export const MockimonDetail = ({ mockimonUrl }: { mockimonUrl: string }) => {
+export const MockimonDetail = () => {
+  const mockiId = useParams().mockiId ?? "mockachu"
+  const mockimonUrl = `/api/mockimon-detail/${mockiId}.json`
   const { data: mockimon, error, status } = useFetch<MockimonQuery>(mockimonUrl)
 
   if (status === "idle" || status === "pending") {

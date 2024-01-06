@@ -4,7 +4,13 @@
   "name": "Frostbite",
   "image": "https://mockimon.github.io/sprite/frostbite.png",
   "description": "A chilling Ice/Dark-type Mockimon, freezing its foes with an icy touch.",
-  "types": ["ice", "dark"],
-  "size": { "weight": 80, "height": 35 },
-  "mockimon_url": "https://mockimon.github.io/#/frostbite"
+  "types": [
+    "ice",
+    "dark"
+  ],
+  "size": {
+    "weight": 80,
+    "height": 35
+  },
+  "mockimon_url": "https://mockimon.github.io/#/mockidex/frostbite"
 }

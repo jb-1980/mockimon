@@ -4,10 +4,12 @@
   "name": "Aquamyst",
   "image": "https://mockimon.github.io/sprite/aquamyst.png",
   "description": "A Water-type Mockimon, mysterious and graceful, dwelling in the depths of tranquil oceans.",
-  "types": ["water"],
+  "types": [
+    "water"
+  ],
   "size": {
     "weight": 70,
     "height": 32
   },
-  "mockimon_url": "https://mockimon.github.io/#/aquamyst"
+  "mockimon_url": "https://mockimon.github.io/#/mockidex/aquamyst"
 }

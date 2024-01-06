@@ -4,10 +4,12 @@
   "name": "Stonewall",
   "image": "https://mockimon.github.io/sprite/stonewall.png",
   "description": "A Rock-type Mockimon, characterized by its rugged appearance and sturdy, unyielding nature.",
-  "types": ["rock"],
+  "types": [
+    "rock"
+  ],
   "size": {
     "weight": 100,
     "height": 38
   },
-  "mockimon_url": "https://mockimon.github.io/#/stonewall"
+  "mockimon_url": "https://mockimon.github.io/#/mockidex/stonewall"
 }

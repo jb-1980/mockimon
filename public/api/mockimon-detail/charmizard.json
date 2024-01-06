@@ -4,10 +4,13 @@
   "name": "Charmizard",
   "image": "https://mockimon.github.io/sprite/charmizard.png",
   "description": "Charmizard is a charming dragon that breathes fire, but in a friendly way.",
-  "types": ["dragon", "fire"],
+  "types": [
+    "dragon",
+    "fire"
+  ],
   "size": {
     "weight": 200,
     "height": 70
   },
-  "mockimon_url": "https://mockimon.github.io/#/charmizard"
+  "mockimon_url": "https://mockimon.github.io/#/mockidex/charmizard"
 }

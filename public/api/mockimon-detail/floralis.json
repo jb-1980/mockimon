@@ -4,10 +4,12 @@
   "name": "Floralis",
   "image": "https://mockimon.github.io/sprite/floralis.png",
   "description": "A Grass-type Mockimon adorned with vibrant flowers, spreading beauty wherever it goes.",
-  "types": ["grass"],
+  "types": [
+    "grass"
+  ],
   "size": {
     "weight": 65,
     "height": 30
   },
-  "mockimon_url": "https://mockimon.github.io/#/floralis"
+  "mockimon_url": "https://mockimon.github.io/#/mockidex/floralis"
 }

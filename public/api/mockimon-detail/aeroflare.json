@@ -4,7 +4,12 @@
   "name": "Aeroflare",
   "image": "https://mockimon.github.io/sprite/aeroflare.png",
   "description": "A majestic Air-type Mockimon, soaring gracefully through the skies with radiant wings.",
-  "types": ["air"],
-  "size": { "weight": 55, "height": 28 },
-  "mockimon_url": "https://mockimon.github.io/#/aeroflare"
+  "types": [
+    "air"
+  ],
+  "size": {
+    "weight": 55,
+    "height": 28
+  },
+  "mockimon_url": "https://mockimon.github.io/#/mockidex/aeroflare"
 }

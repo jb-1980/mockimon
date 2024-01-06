@@ -4,7 +4,12 @@
   "number": 42,
   "image": "https://mockimon.github.io/sprite/aquashade.png",
   "description": "A serene Water-type Mockimon, casting a calming shade over tranquil waters.",
-  "types": ["water"],
-  "size": { "weight": 65, "height": 28 },
-  "mockimon_url": "https://mockimon.github.io/#/aquashade"
+  "types": [
+    "water"
+  ],
+  "size": {
+    "weight": 65,
+    "height": 28
+  },
+  "mockimon_url": "https://mockimon.github.io/#/mockidex/aquashade"
 }

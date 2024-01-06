@@ -4,10 +4,13 @@
   "name": "Mocktwo",
   "image": "https://mockimon.github.io/sprite/mocktwo.png",
   "description": "A sturdy and mysterious Steel-Psychic Mockimon, radiating an aura of resilience and power.",
-  "types": ["steel", "psychic"],
+  "types": [
+    "steel",
+    "psychic"
+  ],
   "size": {
     "weight": 125,
     "height": 45
   },
-  "mockimon_url": "https://mockimon.github.io/#/mocktwo"
+  "mockimon_url": "https://mockimon.github.io/#/mockidex/mocktwo"
 }

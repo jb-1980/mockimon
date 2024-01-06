@@ -4,10 +4,12 @@
   "name": "Zapster",
   "image": "https://mockimon.github.io/sprite/zapster.png",
   "description": "An energetic Electric-type Mockimon, known for its lightning-fast speed and cute appearance.",
-  "types": ["electric"],
+  "types": [
+    "electric"
+  ],
   "size": {
     "weight": 60,
     "height": 25
   },
-  "mockimon_url": "https://mockimon.github.io/#/zapster"
+  "mockimon_url": "https://mockimon.github.io/#/mockidex/zapster"
 }

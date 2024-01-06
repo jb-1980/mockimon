@@ -4,7 +4,13 @@
   "number": 50,
   "image": "https://mockimon.github.io/sprite/mysticnova.png",
   "description": "A Psychic/Cosmic-type Mockimon, radiating energy from the depths of the cosmos.",
-  "types": ["psychic", "cosmic"],
-  "size": { "weight": 75, "height": 34 },
-  "mockimon_url": "https://mockimon.github.io/#/mysticnova"
+  "types": [
+    "psychic",
+    "cosmic"
+  ],
+  "size": {
+    "weight": 75,
+    "height": 34
+  },
+  "mockimon_url": "https://mockimon.github.io/#/mockidex/mysticnova"
 }

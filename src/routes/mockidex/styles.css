@@ -1,0 +1,45 @@
+.mockimon-search {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  gap: 24px;
+}
+
+.change-mockimon {
+  text-decoration: none;
+  display: block;
+  font-size: 18px;
+}
+
+.change-mockimon:hover {
+  text-decoration: none;
+}
+
+.change-mockimon:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+.change-mockimon.prev {
+  min-width: 85px;
+}
+
+a.change-mockimon.prev::before {
+  content: "<";
+  font-size: 18px;
+}
+
+.change-mockimon.next {
+  min-width: 51px;
+}
+
+a.change-mockimon.next::after {
+  content: ">";
+  font-size: 18px;
+}
+
+.mockimon-search-select {
+  width: 200px;
+}

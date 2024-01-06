@@ -4,10 +4,12 @@
   "name": "Brawlsurge",
   "image": "https://mockimon.github.io/sprite/brawlsurge.png",
   "description": "A fierce Fighting-type Mockimon, known for its sharp claws and combat prowess.",
-  "types": ["fighting"],
+  "types": [
+    "fighting"
+  ],
   "size": {
     "weight": 85,
     "height": 36
   },
-  "mockimon_url": "https://mockimon.github.io/#/brawlsurge"
+  "mockimon_url": "https://mockimon.github.io/#/mockidex/brawlsurge"
 }

@@ -1,0 +1,13 @@
+#documentation {
+  max-width: 800px;
+}
+
+.endpoint {
+  font-weight: 500;
+}
+.endpoint > span {
+  background-color: var(--red);
+  color: var(--light);
+  padding: 2px 8px;
+  border-radius: 5px;
+}

@@ -55,7 +55,7 @@ describe("mockimon", () => {
         `https://mockimon.github.io/sprite/${id}.png`
       )
       expect(mockimonData.mockimon_url).toMatch(
-        `https://mockimon.github.io/#/${id}`
+        `https://mockimon.github.io/#/mockidex/${id}`
       )
       expect(mockimonData).toMatchObject({
         /* eslint-disable */

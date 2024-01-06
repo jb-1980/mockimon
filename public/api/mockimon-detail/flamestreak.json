@@ -4,7 +4,12 @@
   "number": 41,
   "image": "https://mockimon.github.io/sprite/flamestreak.png",
   "description": "A blazing Fire-type Mockimon, streaking through the sky with fiery intensity.",
-  "types": ["fire"],
-  "size": { "weight": 75, "height": 32 },
-  "mockimon_url": "https://mockimon.github.io/#/flamestreak"
+  "types": [
+    "fire"
+  ],
+  "size": {
+    "weight": 75,
+    "height": 32
+  },
+  "mockimon_url": "https://mockimon.github.io/#/mockidex/flamestreak"
 }

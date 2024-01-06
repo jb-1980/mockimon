@@ -4,7 +4,13 @@
   "name": "Celestisurge",
   "image": "https://mockimon.github.io/sprite/celestisurge.png",
   "description": "An Electric/Fairy-type Mockimon, harnessing the power of celestial energies and sparkles.",
-  "types": ["electric", "fairy"],
-  "size": { "weight": 70, "height": 32 },
-  "mockimon_url": "https://mockimon.github.io/#/celestisurge"
+  "types": [
+    "electric",
+    "fairy"
+  ],
+  "size": {
+    "weight": 70,
+    "height": 32
+  },
+  "mockimon_url": "https://mockimon.github.io/#/mockidex/celestisurge"
 }

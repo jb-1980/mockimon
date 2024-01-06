@@ -4,10 +4,13 @@
   "name": "Charmockster",
   "image": "https://mockimon.github.io/sprite/charmockster.png",
   "description": "A fiery ground type. It's a bit of a hot head.",
-  "types": ["ground", "fire"],
+  "types": [
+    "ground",
+    "fire"
+  ],
   "size": {
     "weight": 20,
     "height": 24
   },
-  "mockimon_url": "https://mockimon.github.io/#/charmockster"
+  "mockimon_url": "https://mockimon.github.io/#/mockidex/charmockster"
 }
