@@ -91,4 +91,18 @@ describe("mockimon", () => {
       expect(sprite).toBeDefined()
     })
   })
+
+  test("all mockimon have a correct type", () => {
+    Object.values(mockimonList).forEach((item) => {
+      item.types.forEach((type) => {
+        const hasType =
+          /^(cosmic|normal|fire|water|electric|grass|ice|fighting|poison|ground|flying|psychic|bug|rock|ghost|dragon|dark|steel|fairy|light)$/.test(
+            type
+          )
+        // helpful to see which mockimon have incorrect types
+        if (!hasType) console.log(item.id, type)
+        expect(hasType).toBe(true)
+      })
+    })
+  })
 })

@@ -3,10 +3,8 @@
   "id": "zephyrwhirl",
   "number": 43,
   "image": "https://mockimon.github.io/sprite/zephyrwhirl.png",
-  "description": "A graceful Air-type Mockimon, creating a whirlwind of beauty and grace in its wake.",
-  "types": [
-    "air"
-  ],
+  "description": "A graceful Flying-type Mockimon, creating a whirlwind of beauty and grace in its wake.",
+  "types": ["flying"],
   "size": {
     "weight": 60,
     "height": 30
