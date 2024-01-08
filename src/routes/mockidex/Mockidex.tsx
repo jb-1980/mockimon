@@ -31,7 +31,6 @@ export const Mockidex = () => {
 const SearchOption = (
   props: OptionProps<{ value: string; label: MockimonList[number] }>
 ) => {
-  // console.log({ props, styles: props.getStyles("option", props) })
   const { data, isFocused, isSelected } = props
   const mockimon = data.label
   return (
@@ -78,7 +77,6 @@ const SearchOption = (
 const MockimonName = (
   props: SingleValueProps<{ label: MockimonList[number]; value: string }>
 ) => {
-  console.log({ props })
   const {
     data: { label: mockimon },
   } = props
@@ -194,10 +192,7 @@ const MockimonSearch = ({ list }: { list: MockimonList }) => {
           }),
         }}
         classNames={{
-          menu: (state) => {
-            // const classNames = state.getClassNames("menu", state)
-            console.log({ state })
-            // return classNames
+          menu: () => {
             return "mockimon-search-menu"
           },
         }}
