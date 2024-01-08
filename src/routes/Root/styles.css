@@ -38,11 +38,11 @@
 }
 
 .navbar {
-  width: 100%;
   padding: 4px 16px;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
   display: flex;
   justify-content: center;
+  background-color: var(--red);
 }
 .navbar > div {
   display: flex;
@@ -59,10 +59,26 @@
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: var(--blue);
   color: var(--yellow);
+  margin: 0px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: var(--light);
+  font-size: 18px;
+  font-weight: 500;
+  padding: 8px;
+  border-radius: 5px;
+  transition: all 0.2s ease-in-out;
 }
 
 .navbar a.active {
-  color: var(--red);
+  background-color: var(--dark-red);
+}
+
+.navbar a:hover {
+  background-color: var(--light-red);
+  text-decoration: underline;
 }
 
 main {

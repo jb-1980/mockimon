@@ -36,4 +36,5 @@ type MockimonQuery = {
 type MockimonList = {
   id: string
   name: string
+  number: number
 }[]

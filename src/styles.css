@@ -5,9 +5,12 @@
   --light: #fff;
   --dark: #444;
   --yellow: #fbd743;
-  --red: #ff1f1f;
+  --light-red: #ff867c;
+  --red: #ef5350;
+  --dark-red: #c62828;
   --light-blue: #5db9ff;
-  --blue: #363b81;
+  --blue: #4b53ac;
+
   /* badge colors */
   --badge-normal: #a8a77a;
   --badge-fire: #ee8130;
@@ -73,6 +76,9 @@ body {
 .mockimon-detail {
   display: flex;
   flex-direction: column;
+  width: 100%;
+  max-width: 800px;
+  padding-top: 16px;
 }
 
 .mockimon-detail-container {
@@ -120,14 +126,18 @@ body {
 .mockimon-name {
   text-transform: capitalize;
   text-align: center;
+  margin: 0px;
+  @media screen and (max-width: 600px) {
+    font-size: 100%;
+  }
 }
 .mockimon-name > span {
   color: #888;
 }
 
 .mockimon-image {
-  width: 390px;
-  height: 390px;
+  width: 100%;
+  max-width: 390px;
 }
 
 .mockimon-type-badge {

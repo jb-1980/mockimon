@@ -1,8 +1,12 @@
 import "./styles.css"
-import list from "../../../public/api/list.json"
-import Mockachu from "../../../public/api/mockimon-detail/mockachu.json"
+
 import { JsonBlock } from "../../global-components/JsonBlock"
+import { useLoaderData } from "react-router-dom"
 export const Docs = () => {
+  const { list, Mockachu } = useLoaderData() as {
+    list: MockimonList
+    Mockachu: MockimonQuery
+  }
   return (
     <div id="documentation">
       <p>

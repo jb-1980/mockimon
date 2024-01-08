@@ -1,4 +1,5 @@
 #documentation {
+  width: 100%;
   max-width: 800px;
 }
 
@@ -6,7 +7,7 @@
   font-weight: 500;
 }
 .endpoint > span {
-  background-color: var(--red);
+  background-color: var(--dark-red);
   color: var(--light);
   padding: 2px 8px;
   border-radius: 5px;

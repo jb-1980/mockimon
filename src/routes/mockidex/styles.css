@@ -1,16 +1,41 @@
 .mockimon-search {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   margin: 0 auto;
   gap: 24px;
+  background-color: var(--red);
+  padding: 8px 4px 0;
+  width: 100%;
+  max-width: 800px;
+}
+
+#change-mockimon-prev {
+  margin-right: auto;
+  flex: 1;
+}
+
+#change-mockimon-next {
+  margin-left: auto;
+  flex: 1;
 }
 
 .change-mockimon {
   text-decoration: none;
-  display: block;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
   font-size: 18px;
+  color: var(--light);
+}
+
+.change-mockimon > .mockimon-name {
+  @media screen and (max-width: 600px) {
+    display: none;
+  }
 }
 
 .change-mockimon:hover {
@@ -19,27 +44,26 @@
 
 .change-mockimon:visited {
   text-decoration: none;
-  color: inherit;
+  /* color: inherit; */
 }
 
 .change-mockimon.prev {
-  min-width: 85px;
-}
-
-a.change-mockimon.prev::before {
-  content: "<";
-  font-size: 18px;
+  justify-content: flex-start;
 }
 
 .change-mockimon.next {
-  min-width: 51px;
+  justify-content: flex-end;
 }
 
-a.change-mockimon.next::after {
-  content: ">";
+.icon {
   font-size: 18px;
-}
-
-.mockimon-search-select {
-  width: 200px;
+  background-color: var(--light);
+  padding: 2px;
+  border-radius: 50%;
+  width: 18px;
+  height: 18px;
+  justify-content: center;
+  align-items: center;
+  display: inline-flex;
+  color: var(--red);
 }

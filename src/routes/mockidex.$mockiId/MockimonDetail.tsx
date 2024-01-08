@@ -1,22 +1,17 @@
-import { useParams } from "react-router-dom"
+import { useLoaderData } from "react-router-dom"
 import { ErrorPage } from "../../Error"
 import { JsonBlock } from "../../global-components/JsonBlock"
 import { typeColors } from "../../type-colors"
-import { useFetch } from "../../useFetch"
 
 export const MockimonDetail = () => {
-  const mockiId = useParams().mockiId ?? "mockachu"
-  const mockimonUrl = `/api/mockimon-detail/${mockiId}.json`
-  const { data: mockimon, error, status } = useFetch<MockimonQuery>(mockimonUrl)
+  const mockimon = useLoaderData() as MockimonQuery | undefined
 
-  if (status === "idle" || status === "pending") {
-    return null
-  } else if (status === "rejected") {
-    return <ErrorPage error={error as Error} />
+  if (!mockimon) {
+    return <ErrorPage error={new Error("No mockimon found")} />
   } else {
     return (
       <div className="mockimon-detail">
-        <NameAndNumber name={mockimon.name} number={mockimon.number} />
+        {/* <NameAndNumber name={mockimon.name} number={mockimon.number} /> */}
         <div className="mockimon-detail-container">
           <MockimonDetailsCard mockimon={mockimon} />
           <MockimonAPIDetails mockimon={mockimon} />
@@ -29,14 +24,16 @@ export const MockimonDetail = () => {
 const MockimonAPIDetails = ({ mockimon }: { mockimon: MockimonQuery }) => {
   return (
     <div className="mockimon-api-details-block">
-      <p>
-        <h4>Fetch Endpoint</h4>
+      <div>
+        <h4 style={{ margin: "0 0 4px" }}>Fetch Endpoint</h4>
         <a href={`/api/mockimon-detail/${mockimon.id}.json`}>
           {`${window.location.origin}/api/mockimon-detail/${mockimon.id}.json`}
         </a>
-        <h4>JSON</h4>
+      </div>
+      <div>
+        <h4 style={{ margin: "0 0 4px" }}>JSON</h4>
         <JsonBlock json={mockimon} />
-      </p>
+      </div>
     </div>
   )
 }
@@ -49,14 +46,6 @@ const MockimonDetailsCard = ({ mockimon }: { mockimon: MockimonQuery }) => {
       <Types types={mockimon.types} />
       <Size height={mockimon.size.height} weight={mockimon.size.weight} />
     </div>
-  )
-}
-
-const NameAndNumber = ({ name, number }: { name: string; number: number }) => {
-  return (
-    <h1 className="mockimon-name">
-      {name} <span>#{number.toString().padStart(4, "0")}</span>
-    </h1>
   )
 }
 
