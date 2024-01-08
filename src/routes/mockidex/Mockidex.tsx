@@ -74,12 +74,10 @@ const MockimonSearch = ({ list }: { list: MockimonList }) => {
         }}
         placeholder={"Search for a Mockimon"}
         className="mockimon-search-select"
-        // unstyled
         styles={{
           control: (provided) => ({
             ...provided,
             border: "none",
-            // width: 300,
             height: 40,
             borderRadius: 0,
             boxShadow: "none",
