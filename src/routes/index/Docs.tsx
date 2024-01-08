@@ -18,7 +18,10 @@ export const Docs = () => {
       </h3>
       <section>
         <h3 className="endpoint">
-          <span>GET</span> https://mockimon.github.io/api/list.json
+          <span>GET</span>{" "}
+          <a href="https://mockimon.github.io/api/list.json">
+            https://mockimon.github.io/api/list.json
+          </a>
         </h3>
         <h4>Returns a list of all the Mockimon available</h4>
         <JsonBlock json={list.slice(0, 5)} />
@@ -26,7 +29,9 @@ export const Docs = () => {
       <section>
         <h3 className="endpoint">
           <span>GET</span>{" "}
-          https://mockimon.github.io/api/mockimon-detail/:mockimonId.json
+          <a href="https://mockimon.github.io/api/mockimon-detail/mockachu.json">
+            https://mockimon.github.io/api/mockimon-detail/:mockimonId.json
+          </a>
         </h3>
         <h4>Returns details of a specific Mockimon</h4>
         <JsonBlock json={Mockachu} />
