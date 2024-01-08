@@ -123,16 +123,15 @@ body {
   margin-left: 7px;
 }
 
-.mockimon-name {
-  text-transform: capitalize;
-  text-align: center;
-  margin: 0px;
-  @media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
+  .search-name-value {
     font-size: 100%;
   }
-}
-.mockimon-name > span {
-  color: #888;
+  .mockimon-search-menu {
+    width: 266px !important;
+    left: 50%;
+    margin-left: -133px;
+  }
 }
 
 .mockimon-image {

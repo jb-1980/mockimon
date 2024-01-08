@@ -7,7 +7,7 @@ import {
 } from "react-router-dom"
 import { useEffect } from "react"
 import "./styles.css"
-import Select from "react-select"
+import Select, { OptionProps, SingleValueProps } from "react-select"
 
 export const Mockidex = () => {
   const { mockiId } = useParams()
@@ -25,6 +25,76 @@ export const Mockidex = () => {
       <MockimonSearch list={list} />
       <Outlet />
     </>
+  )
+}
+
+const SearchOption = (
+  props: OptionProps<{ value: string; label: MockimonList[number] }>
+) => {
+  // console.log({ props, styles: props.getStyles("option", props) })
+  const { data, isFocused, isSelected } = props
+  const mockimon = data.label
+  return (
+    <div
+      style={{
+        display: "flex",
+        alignItems: "center",
+        padding: "8px 12px",
+        backgroundColor: isFocused
+          ? "var(--red)"
+          : isSelected
+          ? "var(--dark-red)"
+          : "transparent",
+        color: isSelected || isFocused ? "var(--light)" : "var(--dark)",
+        fontWeight: 600,
+      }}
+      ref={props.innerRef}
+      {...props.innerProps}
+    >
+      <img
+        src={`/sprite/${mockimon.id}.png`}
+        alt={mockimon.name}
+        style={{
+          width: 32,
+          height: 32,
+          marginRight: 8,
+          borderRadius: 4,
+          boxShadow: "0 0 0 1px #ddd",
+        }}
+      />
+      {mockimon.name}
+      <span
+        style={{
+          color: isSelected || isFocused ? "var(--light)" : "#888",
+          marginLeft: "auto",
+        }}
+      >
+        #{mockimon.number.toString().padStart(2, "0")}
+      </span>
+    </div>
+  )
+}
+
+const MockimonName = (
+  props: SingleValueProps<{ label: MockimonList[number]; value: string }>
+) => {
+  console.log({ props })
+  const {
+    data: { label: mockimon },
+  } = props
+  return (
+    <h1
+      className="search-name-value"
+      style={{
+        color: "var(--dark)",
+        margin: 0,
+      }}
+    >
+      {mockimon.name}{" "}
+      <span style={{ color: "#888" }}>
+        #{mockimon.number.toString().padStart(2, "0")}
+      </span>
+    </h1>
   )
 }
 
@@ -56,21 +126,21 @@ const MockimonSearch = ({ list }: { list: MockimonList }) => {
         )}
       </div>
       <Select
+        components={{
+          Option: SearchOption,
+          SingleValue: MockimonName,
+        }}
         options={list.map((mockimon) => ({
           value: mockimon.id,
-          label: <>{mockimon.name}</>,
+          label: mockimon,
         }))}
-        onChange={(mockimonId) => {
-          mockimonId && navigate(mockimonId.value)
+        isMulti={false}
+        onChange={(newValue) => {
+          newValue && navigate(newValue.value)
         }}
         value={{
           value: mockiId,
-          label: (
-            <h1 className="mockimon-name">
-              {currentMockimon.name}{" "}
-              <span>#{currentMockimon.number.toString().padStart(2, "0")}</span>
-            </h1>
-          ),
+          label: currentMockimon,
         }}
         placeholder={"Search for a Mockimon"}
         className="mockimon-search-select"
@@ -122,6 +192,14 @@ const MockimonSearch = ({ list }: { list: MockimonList }) => {
             display: "flex",
             alignItems: "center",
           }),
+        }}
+        classNames={{
+          menu: (state) => {
+            // const classNames = state.getClassNames("menu", state)
+            console.log({ state })
+            // return classNames
+            return "mockimon-search-menu"
+          },
         }}
       />
       <div id="change-mockimon-next">
