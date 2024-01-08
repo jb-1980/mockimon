@@ -137,6 +137,7 @@ body {
 .mockimon-image {
   width: 100%;
   max-width: 390px;
+  border-radius: 5px;
 }
 
 .mockimon-type-badge {
