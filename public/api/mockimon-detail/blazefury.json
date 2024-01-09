@@ -4,13 +4,10 @@
   "number": 49,
   "image": "https://mockimon.github.io/sprite/blazefury.png",
   "description": "A Fire/Fighting-type Mockimon, blazing with fury and unmatched combat prowess.",
-  "types": [
-    "fire",
-    "fighting"
-  ],
+  "types": ["fire", "fighting"],
   "size": {
-    "weight": 85,
-    "height": 38
+    "weight": 215,
+    "height": 74
   },
   "mockimon_url": "https://mockimon.github.io/#/mockidex/blazefury"
 }
