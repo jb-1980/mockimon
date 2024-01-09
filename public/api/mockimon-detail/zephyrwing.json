@@ -6,8 +6,8 @@
   "description": "An Flying-type Mockimon with graceful wings, riding the currents with elegance and speed.",
   "types": ["flying"],
   "size": {
-    "weight": 55,
-    "height": 30
+    "weight": 558,
+    "height": 76
   },
   "mockimon_url": "https://mockimon.github.io/#/mockidex/zephyrwing"
 }
